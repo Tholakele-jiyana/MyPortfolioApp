@@ -1,7 +1,7 @@
 function About() {
   return (
     //About background changed to Light Orange #FED8B1
-    <section className="bg-[#FED8B1] py-24">
+    <section id="About" className="bg-[#FED8B1] py-24">
       <div className="text-center px-6">
         <h1 className="text-5xl font-extrabold text-gray-900 mb-6">
           About Me
