@@ -11,14 +11,14 @@ import ComingSoon from '../assets/ComingSoon.png';
 function Projects() {
   const projectList = [
     { title: 'Chez Portia', description: 'Design and develop a menu', img: ChezPortia, link: 'https://venerable-smakager-5f92ff.netlify.app' },
-    { title: 'Diamond Tech', description: 'Develop a tech website', img: DiamondTech, link: 'https://venerable-smakager-5f92ff.netlify.app'},
-    { title: 'TFDRedesign', description: 'Redesign a website', img: TFDRedesign },
-    { title: 'RackofLambRecipe', description: 'Develop a recipe website', img: RackofLambRecipe, link: 'https://venerable-smakager-5f92ff.netlify.app'},
-    { title: 'BloomluxeGroupProject', description: 'Develop a luxury flower shop website-group project', img: BloomluxeGroupProject, link: 'https://venerable-smakager-5f92ff.netlify.app' },
-    { title: 'FireRoomRedesignGroupProject', description: 'Redesign a website-group project', img: FireRoomRedesignGroupProject , link: 'https://venerable-smakager-5f92ff.netlify.app'},
-    { title: 'MelsoftRedesignGroupProject', description: 'Redesign a website-group project', img: MelsoftRedesignGroupProject , link: 'https://venerable-smakager-5f92ff.netlify.app'},
-    { title: 'ApexCoders', description: 'Design a website-group project', img: ApexCoders, link: 'https://venerable-smakager-5f92ff.netlify.app'},
-    { title: 'Coming Soon', description: 'More Projects coming soon', img: ComingSoon, link: 'https://venerable-smakager-5f92ff.netlify.app'},
+    { title: 'Diamond Tech', description: 'Develop a tech website', img: DiamondTech, link: 'https://diamondtechwebsiteindividualproject.netlify.app'},
+    { title: 'TFDRedesign', description: 'Redesign a website', img: TFDRedesign, link: 'https://wonderful-custard-0c989f.netlify.app' },
+    { title: 'RackofLambRecipe', description: 'Develop a recipe website', img: RackofLambRecipe, link: 'https://visionary-dolphin-541341.netlify.app'},
+    { title: 'BloomluxeGroupProject', description: 'Develop a luxury flower shop website-group project', img: BloomluxeGroupProject, link: 'https://spontaneous-caramel-d4b027.netlify.app' },
+    { title: 'FireRoomRedesignGroupProject', description: 'Redesign a website-group project', img: FireRoomRedesignGroupProject , link: 'https://fireroom12.netlify.app/#top'},
+    { title: 'MelsoftRedesignGroupProject', description: 'Redesign a website-group project', img: MelsoftRedesignGroupProject , link: 'https://68c75fe5e040822644335fa4--melsoft-bootstrap.netlify.app/#tholakele-accredited-programs'},
+    { title: 'ApexCoders', description: 'Design a website-group project', img: ApexCoders, link: 'https://group-1-portfolio.netlify.app/tholakele'},
+    { title: 'Coming Soon', description: 'More Projects coming soon', img: ComingSoon},
 
   ];
 
@@ -35,6 +35,8 @@ function Projects() {
                 <p className="text-gray-600 mb-4">{project.description}</p>
                 <div className="flex justify-center">
                   {project.link ? (
+                    
+                    //a tag used to link to extrernal project sites
                     <a
                       href={project.link}
                       target="_blank"
