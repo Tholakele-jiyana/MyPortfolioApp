@@ -1,18 +1,33 @@
 function About() {
   return (
-    <div>
-        <h1>About</h1>
-        <p>I am a Software Development student currently enrolled at Melsoft Academy. 
-            I am inquisitive about the evolving digital space which is why I decided to pursue a career in tech. 
-            I enjoy learning about the new technologies and how they have become useful in solving
-            real world problems. 
-            The desire to shift from my previous career to tech is both exciting and challenging.
-            I am looking forward to gaining more knowledge as I progress and finding my niche in the field. 
+    <section className="bg-gray-100 py-24">
+      <div className="text-center px-6">
+        <h1 className="text-5xl font-extrabold text-gray-900 mb-6">
+          Welcome to LT's Portfolio
+        </h1>
 
-            Outside of my day-to-day job and studies, I enjoy spending time with family and friends over a good meal.
-        </p>
-    </div>
+        <div className="max-w-2xl mx-auto">
+          <p className="text-lg text-gray-600 mb-10">
+            My name is Lindokuhle T Jiyana. I design and develop websites thats are visually appealling and user friendly. 
+          </p>
+
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="#projects"
+              className="bg-indigo-600 text-white px-8 py-3 rounded-md text-lg font-medium hover:bg-indigo-700 transition duration-200"
+            >
+              My Projects
+            </a>
+            <a
+              href="#contact"
+              className="border border-indigo-600 text-indigo-600 px-8 py-3 rounded-md text-lg font-medium hover:bg-indigo-50 transition duration-200"
+            >
+              Contact Me
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 }
-
-export default About;
+export default About
