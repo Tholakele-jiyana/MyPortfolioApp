@@ -21,9 +21,9 @@ function Projects() {
     { title: 'Coming Soon', description: 'More Projects coming soon', img: ComingSoon},
 
   ];
-
+   //Projects background changed to Caramel #CC7F3B
   return (
-    <section id="projects" className="py-20 bg-gray-100">
+    <section id="projects" className="py-20 bg-[#CC7F3B]">
       <div className="max-w-7xl mx-auto px-6">
         <h2 className="text-3xl font-bold text-center mb-12">My Projects</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
@@ -35,18 +35,23 @@ function Projects() {
                 <p className="text-gray-600 mb-4">{project.description}</p>
                 <div className="flex justify-center">
                   {project.link ? (
-                    
+
                     //a tag used to link to extrernal project sites
+                    //button colour changed to Mahogany #C04000
+                    //hover colour changed to Candy Apple Red #FF0800
                     <a
                       href={project.link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition duration-200"
+                      className="bg-[#C04000] text-white px-4 py-2 rounded-md hover:bg-[#FF0800] transition duration-200"
                     >
                       View
                     </a>
-                  ) : (
-                    <button className="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition duration-200">
+                  ) : ( 
+                
+                    //button colour changed to Mahogany #C04000
+                    //hover colour changed to Candy Apple Red #FF0800
+                    <button className="bg-[#C04000] text-white px-4 py-2 rounded-md hover:bg-[#FF0800] transition duration-200">
                       View
                     </button>
                   )}

@@ -1,13 +1,15 @@
 function Home() {
   return (
-    <section className="bg-gray-100 py-24">
+    //Home background changed to Caramel #CC7F3B
+    <section className="bg-[#CC7F3B] py-24">
       <div className="text-center px-6">
         <h1 className="text-5xl font-extrabold text-gray-900 mb-6">
           Welcome to LT's Portfolio
         </h1>
 
+       {/*intro text changed to black*/}
         <div className="max-w-2xl mx-auto">
-          <p className="text-lg text-gray-600 mb-10">
+          <p className="text-black text-lg mb-10">
             My name is Lindokuhle T Jiyana. I design and develop websites thats are visually appealling and user friendly. 
           </p>
 
