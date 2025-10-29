@@ -12,15 +12,18 @@ function Home() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            {/* button colour changed to Mahogany #C04000 */}
+            {/* hover colour changed to Candy Apple Red #FF0800 */}
+
             <a
               href="#projects"
-              className="bg-indigo-600 text-white px-8 py-3 rounded-md text-lg font-medium hover:bg-indigo-700 transition duration-200"
-            >
+              className="bg-[#C04000] text-white px-8 py-3 rounded-md text-lg font-medium hover:bg-[#FF0800] transition duration-200"
+            > 
               My Projects
             </a>
             <a
               href="#contact"
-              className="border border-indigo-600 text-indigo-600 px-8 py-3 rounded-md text-lg font-medium hover:bg-indigo-50 transition duration-200"
+              className="bg-[#C04000] text-white px-8 py-3 rounded-md text-lg font-medium hover:bg-[#FF0800] transition duration-200"
             >
               Contact Me
             </a>
