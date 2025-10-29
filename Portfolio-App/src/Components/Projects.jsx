@@ -23,7 +23,8 @@ function Projects() {
   ];
    //Projects background changed to Caramel #CC7F3B
   return (
-    <section id="projects" className="py-20 bg-[#CC7F3B]">
+    //id="Projects" used to link component to navbar links
+    <section id="Projects" className="py-20 bg-[#CC7F3B]">
       <div className="max-w-7xl mx-auto px-6">
         <h2 className="text-3xl font-bold text-center mb-12">My Projects</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
