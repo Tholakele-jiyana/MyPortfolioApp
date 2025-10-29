@@ -1,5 +1,12 @@
 import ChezPortia from '../assets/chezportia.jpeg';
 import DiamondTech from '../assets/DiamondTech.png';
+import TFDRedesign from '../assets/TFDRedesign.png';
+import RackofLambRecipe from '../assets/RackofLambRecipe.png';
+import BloomluxeGroupProject from '../assets/BloomluxeGroupProject.png';
+import FireRoomRedesignGroupProject from '../assets/FireRoomRedesignGroupProject.png';
+import MelsoftRedesignGroupProject from '../assets/MelsoftRedesignGroupProject.png';
+import ApexCoders from '../assets/ApexCoders.png';  
+import ComingSoon from '../assets/ComingSoon.png';      
 
 function Projects() {
   const projectList = [
@@ -10,8 +17,8 @@ function Projects() {
     { title: 'BloomluxeGroupProject', description: 'Develop a luxury flower shop website-group project', img: BloomluxeGroupProject },
     { title: 'FireRoomRedesignGroupProject', description: 'Redesign a website-group project', img: FireRoomRedesignGroupProject },
     { title: 'MelsoftRedesignGroupProject', description: 'Redesign a website-group project', img: MelsoftRedesignGroupProject },
-    { title: 'ApexCoders', description: 'Design a website-group project', img: 'ApexCoders' },
-    { title: 'Coming Soon', description: 'More Projects coming soon', img: CoomingSoon }, 
+    { title: 'ApexCoders', description: 'Design a website-group project', img: ApexCoders },
+    { title: 'Coming Soon', description: 'More Projects coming soon', img: ComingSoon },
 
   ];
 
