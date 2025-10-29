@@ -2,10 +2,11 @@ import React from 'react';
 
 function Contact() {
   return (
-    //link the contact component with the button in the home component by using id="contact"
+    //link the contact component with the button in the home component by using id="Contact"
     //About background changed to Light Orange #FED8B1
+    //id="Contact" added to link the contact component with navbar
 
-    <main id="contact" className="bg-[#FED8B1] min-h-screen flex items-center justify-center">
+    <main id="Contact" className="bg-[#FED8B1] min-h-screen flex items-center justify-center">
       <div className="container mx-auto px-4 py-12">
         <div className="flex flex-col lg:flex-row items-center lg:gap-20">
           
