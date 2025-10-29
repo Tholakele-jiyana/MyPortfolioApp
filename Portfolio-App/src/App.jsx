@@ -1,7 +1,7 @@
 //Import the components to be used in the App component
 import Header from "./Components/Header";
-import About from "./Components/About";
 import Home from "./Components/Home";
+import About from "./Components/About";
 import Projects from "./Components/Projects";
 import Footer from "./Components/Footer"; 
 import Contact from "./Components/Contact";
@@ -11,8 +11,8 @@ function App() {
   return (
     <div>
       <Header />
+       <Home />
       <About />
-      <Home />
       <Projects />
       <Contact />
       <Footer />
