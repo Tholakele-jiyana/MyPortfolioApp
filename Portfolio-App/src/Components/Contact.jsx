@@ -2,7 +2,8 @@ import React from 'react';
 
 function Contact() {
   return (
-    <main className="min-h-screen flex items-center justify-center bg-gray-50">
+    //link the contact component with the button in the home component by using id="contact"
+    <main id="contact" className="min-h-screen flex items-center justify-center bg-gray-50">
       <div className="container mx-auto px-4 py-12">
         <div className="flex flex-col lg:flex-row items-center lg:gap-20">
           
@@ -43,7 +44,7 @@ function Contact() {
               <button className="w-full bg-indigo-600 text-white py-2 rounded-lg hover:bg-indigo-700 transition-colors mb-4">
                 Send Message
               </button>
-              
+
             </form>
           </div>
         </div>
