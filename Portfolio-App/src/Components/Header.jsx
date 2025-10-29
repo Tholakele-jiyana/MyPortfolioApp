@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <nav className="bg-gray-900 text-white px-6 py-4">
+    <nav className="bg-[#C04000] text-white px-6 py-4">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Brand */}
         <a href="#" className="text-xl font-bold">LT-Portfolio</a>
