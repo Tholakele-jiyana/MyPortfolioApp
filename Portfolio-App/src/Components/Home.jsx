@@ -1,7 +1,8 @@
 function Home() {
   return (
     //Home background changed to Caramel #CC7F3B
-    <section className="bg-[#CC7F3B] py-24">
+    //used id="Home" to link component to navbar links
+    <section id="Home" className="bg-[#CC7F3B] py-24">
       <div className="text-center px-6">
         <h1 className="text-5xl font-extrabold text-gray-900 mb-6">
           Welcome to LT's Portfolio
