@@ -1,4 +1,2 @@
-/*body {
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 20px;
-}
+/* index.css configuration */
+@import "tailwindcss";
