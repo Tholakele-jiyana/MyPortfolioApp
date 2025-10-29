@@ -1,7 +1,7 @@
 //Import the components to be used in the App component
 import Header from "./Components/Header";
 import About from "./Components/About";
-import Hero from "./Components/Hero";
+import Home from "./Components/Home";
 import Projects from "./Components/Projects";
 import Footer from "./Components/Footer"; 
 import Contact from "./Components/Contact";
@@ -12,7 +12,7 @@ function App() {
     <div>
       <Header />
       <About />
-      <Hero />
+      <Home />
       <Projects />
       <Contact />
       <Footer />
