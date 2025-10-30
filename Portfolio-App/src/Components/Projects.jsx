@@ -1,3 +1,5 @@
+import React from 'react';
+
 import ChezPortia from '../assets/chezportia.jpeg';
 import DiamondTech from '../assets/DiamondTech.png';
 import TFDRedesign from '../assets/TFDRedesign.png';

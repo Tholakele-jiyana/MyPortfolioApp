@@ -1,3 +1,5 @@
+import React from 'react';
+
 function Header() {
   return (
     //Header background changed to Light Orange #FED8B1

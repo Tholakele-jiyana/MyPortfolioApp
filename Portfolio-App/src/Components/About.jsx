@@ -1,3 +1,5 @@
+import React from 'react';
+
 function About() {
   return (
     //About background changed to Light Orange #FED8B1

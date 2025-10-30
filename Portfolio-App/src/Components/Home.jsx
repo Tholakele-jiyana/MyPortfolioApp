@@ -1,3 +1,5 @@
+import React from 'react';
+
 function Home() {
   return (
     //Home background changed to Caramel #CC7F3B
