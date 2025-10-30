@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ChezPortia from '../assets/chezportia.jpeg';
+import ChezPortia from '../assets/ChezPortia.jpeg';
 import DiamondTech from '../assets/DiamondTech.png';
 import TFDRedesign from '../assets/TFDRedesign.png';
 import RackofLambRecipe from '../assets/RackofLambRecipe.png';
