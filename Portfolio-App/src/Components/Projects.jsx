@@ -5,7 +5,7 @@ import DiamondTech from '../assets/DiamondTech.png';
 import TFDRedesign from '../assets/TFDRedesign.png';
 import RackofLambRecipe from '../assets/RackofLambRecipe.png';
 import BloomluxeGroupProject from '../assets/BloomluxeGroupProject.png';
-import FireRoomRedesignGroupProject from '../assets/FireRoomRedesignGroupProject.png';
+import FireroomRedesigngp from '../assets/FireroomRedesigngp.png';
 import MelsoftRedesignGroupProject from '../assets/MelsoftRedesignGroupProject.png';
 import ApexCoders from '../assets/ApexCoders.png';  
 import ComingSoon from '../assets/ComingSoon.png';      
@@ -17,7 +17,7 @@ function Projects() {
     { title: 'TFDRedesign', description: 'Redesign a website', img: TFDRedesign, link: 'https://wonderful-custard-0c989f.netlify.app' },
     { title: 'RackofLambRecipe', description: 'Develop a recipe website', img: RackofLambRecipe, link: 'https://visionary-dolphin-541341.netlify.app'},
     { title: 'BloomluxeGroupProject', description: 'Develop a luxury flower shop website-group project', img: BloomluxeGroupProject, link: 'https://spontaneous-caramel-d4b027.netlify.app' },
-    { title: 'FireRoomRedesignGroupProject', description: 'Redesign a website-group project', img: FireRoomRedesignGroupProject , link: 'https://fireroom12.netlify.app/#top'},
+    { title: 'FireroomRedesigngp', description: 'Redesign a website-group project', img: FireroomRedesigngp , link: 'https://fireroom12.netlify.app/#top'},
     { title: 'MelsoftRedesignGroupProject', description: 'Redesign a website-group project', img: MelsoftRedesignGroupProject , link: 'https://68c75fe5e040822644335fa4--melsoft-bootstrap.netlify.app/#tholakele-accredited-programs'},
     { title: 'ApexCoders', description: 'Design a website-group project', img: ApexCoders, link: 'https://group-1-portfolio.netlify.app/tholakele'},
     { title: 'Coming Soon', description: 'More Projects coming soon', img: ComingSoon},
